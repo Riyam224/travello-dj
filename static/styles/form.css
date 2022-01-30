@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    rgba(22, 11, 333, 0.4),
+    rgba(43, 2, 11, 0.5)
+  );
+}
+
+form {
+  color: #fff;
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form input {
+  padding: 20px 50px;
+  margin: 5px;
+}
